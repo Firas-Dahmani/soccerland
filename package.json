@@ -6,7 +6,7 @@
   "scripts": {
     "Server": "nodemon Backend/app.js",
     "start": "node Backend/app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Frontend && npm run build --prefix Frontend",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Frontend && npm run deploy --prefix Frontend",
     "Client": "npm start --prefix Frontend",
     "dev": "concurrently \"npm run Server\" \"npm run Client\"",
     "deploy": "npm run build --prefix Frontend && npm start"
