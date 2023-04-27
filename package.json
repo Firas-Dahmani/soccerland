@@ -7,7 +7,7 @@
     "server": "nodemon Backend/app.js",
     "start": "node Backend/app.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Frontend && npm run deploy --prefix Frontend",
-    "netlify-postbuild": "npm ci --prefix Frontend && npm run build --prefix Frontend",
+    "netlify-postbuild": "npm ci --prefix Frontend --legacy-peer-deps && npm run build --prefix Frontend",    
     "client": "npm start --prefix Frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm run build --prefix Frontend"
