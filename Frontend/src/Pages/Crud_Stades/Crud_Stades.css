@@ -1,0 +1,63 @@
+.satde-container{
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 10%;
+  padding: 40px 100px;
+}
+
+
+    .table-image td,
+    .table-image th {
+      vertical-align: middle;
+    }
+    
+    th,td{
+      text-align: center;
+      }
+    thead{
+      font-size: 18px;
+    }
+      td{
+        font-weight: bold;
+        font-size: 17px;
+      }
+    img{
+      transition: 0.5s all ease-in-out;
+    }
+  
+    
+    
+    .delete{
+      cursor: pointer;
+      transition: 0.3s all ease-in-out;
+    }
+    
+  
+    .check{
+      cursor: pointer;
+      transition: 0.3s all ease-in-out;
+    }
+    
+    
+    
+    tr{
+      transition: all 300ms ease-in-out;
+    }
+    tr:hover{
+      background-color: #f1f1f1;
+    }
+    @media (max-width: 1000px) {
+      select{
+        min-width: 120px;
+      }
+    }
+    @media (max-width: 767px) {
+      #container{
+        overflow-x: scroll;
+      }
+      h3{
+        font-size: 14px;
+      }
+    
+    }

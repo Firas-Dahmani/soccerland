@@ -1,0 +1,53 @@
+.adminProfile{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 10%;
+    padding: 40px 100px;
+}
+
+.leftPanel {
+    grid-area: leftPanel;
+  }
+  
+.rightPanel{
+    grid-area: rightPanel;
+  }
+
+  .profile{
+    padding: 35px;
+    background: #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0 ,15);
+  }
+
+  .profileBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "leftPanel rightPanel";
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+
+  .leftPanel{
+    position: relative;
+    width: 100%;
+  }
+
+  .list-group{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tab-content .row50{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab-content .row100 .inputBox{
+    width: 100%;
+  }

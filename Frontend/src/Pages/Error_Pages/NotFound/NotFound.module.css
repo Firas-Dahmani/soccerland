@@ -1,0 +1,39 @@
+.notfound{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 124px;
+    text-align: center;
+    color: #343434;
+  }
+  
+  .ball{
+    width: 141px;
+    padding-bottom: 21px;
+  }
+  
+  .notfound h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    background: #e55039aa;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .notfound a{
+    text-decoration: none;
+    background: #e55039aa;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  
+  .notfound a:hover{
+    background: #e55039;
+  }
+  

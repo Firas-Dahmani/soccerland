@@ -1,0 +1,43 @@
+.containerCropper-admin {
+	height: 500px;
+    width: 480px;
+	position: absolute;
+	background-color: #242526;
+    top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999999999;
+}
+
+.container-cropper {
+	align-content: flex-end;
+	height: 90%;
+	padding: 10px;
+}
+
+.cropper {
+	height: 75%;
+	position: relative;
+}
+
+.slider {
+	height: 10%;
+	display: flex;
+	align-items: center;
+	margin: auto;  
+	width: 60%;
+}
+
+.container-buttons {
+	border: 1px solid #242526;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #242526;
+	padding-bottom: 20px;
+}
+
+.container-cropper .Form_Button{
+	color: black;
+}

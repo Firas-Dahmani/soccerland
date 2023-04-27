@@ -1,0 +1,32 @@
+.error-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.error-section .error-code {
+    font-size: 90px;
+    line-height: 1;
+    margin-bottom: 8px; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.error-section .error-message {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.79;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #77838f;
+    margin-bottom: 30px; 
+}
+.error-section .error-img {
+    width: 350px;
+    max-width: 100%;
+    margin-bottom: 35px; 
+}
+.error-section .btn-error-action {
+    padding: 16px 28px; 
+}
